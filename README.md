@@ -16,7 +16,5 @@ Independent AI engineer in Taiwan. I build voice AI, LLM agents and smart-contra
   [Offline demo](https://tedinroc.github.io/kaiko/)
 - **ESP32-S3 voice-agent smartwatch** · A voice AI agent on an AMOLED watch, built on xiaozhi-esp32 and ESP-Claw with my own Go voice gateway.
   [Project site (Chinese)](https://tedinroc.github.io/watch/)
-- **Noa** · An MIT-licensed desktop voice companion with a hermes-agent brain and one-line installers for macOS, Linux and Windows.
-  [Project page (Chinese)](https://tedinroc.github.io/noa/)
 
 Everything here is testnet, demo or prototype work.
