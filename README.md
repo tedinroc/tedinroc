@@ -6,7 +6,7 @@ Independent AI engineer in Taiwan. I build voice AI, LLM agents and smart-contra
 
 #### Selected work, 2026
 
-- **Eleven Seconds** · 1st of 39 projects at Monad Blitz Shanghai V3, entered solo. A 30-block cooldown on smart-contract upgrades; three sentinel processes, each with its own key, simulate attacks against the new code and veto it on chain when an invariant breaks. Testnet only.
+- **Eleven Seconds** · 1st place (1st of 39 projects) at Monad Blitz Shanghai V3, entered solo. A 30-block cooldown on smart-contract upgrades; three sentinel processes, each with its own key, simulate attacks against the new code and veto it on chain when an invariant breaks. Testnet only.
   [Arena](https://tedinroc.github.io/eleven-seconds-arena/) · [War room](https://tedinroc.github.io/eleven-seconds/) · [Code](https://github.com/tedinroc/eleven-seconds) · [Official results](https://mojo.devnads.com/events/17?tab=showcase)
 - **Upgrade Airlock** · 2nd place at ETH Shenzhen 2026, entered solo. Every proxy upgrade passes a block cooldown and an on-chain clearance from a Chainlink CRE workflow that first attacks the new implementation in a simulator; an upgrade that fails gets a signed veto and never runs. Live on Ethereum Sepolia.
   [War room](https://upgrade-airlock.pages.dev/) · [Demo video](https://upgrade-airlock.pages.dev/video/) · [Code](https://github.com/tedinroc/upgrade-airlock)
