@@ -1,22 +1,32 @@
-### Ted Chen
+# Ted Chen
 
-我在台灣做獨立開發，主要是語音 AI、LLM agent，以及智慧合約升級前的安全檢查工具。
+台灣的獨立 AI 工程師，主要開發**語音 AI、agent 與鏈上安全工具**。
 
-[English](README.md) · [作品集](https://tedinroc.github.io/zh.html) · [LinkedIn](https://www.linkedin.com/in/tedinroc)
+[English](README.md) · [作品集](https://tedinroc.github.io/zh.html) · [X](https://x.com/tedinroc) · [LinkedIn](https://www.linkedin.com/in/tedinroc)
 
-#### 2026 年作品
+## 精選作品
 
-- **十一秒 Eleven Seconds** · Monad Blitz 上海 V3 第一名（共 39 件作品，單人參賽）。在 Monad 測試網上，合約升級要先等 30 個區塊；等待期間，三個 sentinel 程式會在模擬環境攻擊新程式碼，違反規則就在鏈上否決。
-  [Arena](https://tedinroc.github.io/eleven-seconds-arena/) · [戰情室](https://tedinroc.github.io/eleven-seconds/) · [程式碼](https://github.com/tedinroc/eleven-seconds) · [官方結果](https://mojo.devnads.com/events/17?tab=showcase)
-- **Upgrade Airlock 升級氣閘** · ETH Shenzhen 2026 第二名（單人參賽）。在 Ethereum Sepolia 測試網上，proxy 升級要先等冷卻期、拿到鏈上放行才能執行；Chainlink CRE 工作流會先模擬攻擊新實作，再決定放行或否決。
-  [戰情室](https://upgrade-airlock.pages.dev/) · [Demo 影片](https://upgrade-airlock.pages.dev/video/) · [程式碼](https://github.com/tedinroc/upgrade-airlock)
-- **Isotherm** · Monad Metropolis 參賽作品，結果待公布。在 Monad 測試網上，每天針對城市最高溫開一組 YES/NO 市場（履約價階梯），用機場 METAR 觀測資料結算。
-  [App](https://tedinroc.github.io/isotherm/) · [Demo 影片](https://youtu.be/15AFL_xz_3U) · [程式碼](https://github.com/tedinroc/isotherm)
-- **EARTHRISE** · Tripothon S1 參賽作品。用 three.js 做的月球場景：坑緣用真實高程資料重建，轉動曲柄，Tripo 生成的地球就從坑緣後方升起。
-  [場景](https://tedinroc.github.io/earthrise/) · [官方參賽頁](https://earthrise-daedalus.pages.dev/)
-- **KAIKŌ** · 語音點餐系統，走 OpenAI Realtime（WebRTC），目前用示範店家資料展示。模型的每個工具呼叫都要經過伺服器檢查，價格也由伺服器重算。
-  [案例與錄影（英文）](https://tedinroc.github.io/kaiko/)
-- **語音 agent 手錶** · ESP32-S3 個人原型，語音和裝置端 agent 分別用 xiaozhi-esp32 和 ESP-Claw，Go 語音閘道是我自己寫的。
-  [專案網站](https://tedinroc.github.io/watch/)
+- **[GapCaster](https://github.com/tedinroc/gapcaster)** — 離線產生口述影像，把旁白安排在對白空隙；每句附有依據，並提供人工審閱。**ASUS UGen AI League 2026 決賽入圍。**目前為筆電原型。  
+  [範例影片](https://github.com/tedinroc/gapcaster/blob/main/samples/tears-of-steel-0-140/clip_with_ad.mp4) · [輸出範例](https://github.com/tedinroc/gapcaster/tree/main/samples/tears-of-steel-0-140)
+- **[Remote Hands](https://github.com/tedinroc/remote-hands)** — 透過主控台修復 Linux 測試伺服器，獨立程式檢查重開機、SSH 與資料完整性。**受控測試環境中的原型。**  
+  [介紹影片](https://youtu.be/1kL6B0gGCck) · [實際執行回放](https://tedinroc.github.io/remote-hands/)
+- **[Undo for Bitcoin](https://github.com/tedinroc/undo)** — 使用 NEAR Chain Signatures，替 Bitcoin 支出加入等待期、手機 passkey 取消與冷金鑰復原。**NEAR 測試網 + Mutinynet。**  
+  [展示影片](https://undo-btc.pages.dev/) · [驗證步驟](https://github.com/tedinroc/undo#run-it)
+- **[十一秒 Eleven Seconds](https://github.com/tedinroc/eleven-seconds)** — 三個 sentinel 在升級的 30 區塊冷卻期內模擬攻擊，違反規則便否決。**Monad Blitz 上海 V3 第一名，單人參賽。**Monad 測試網。  
+  [親手測試攻擊卡](https://tedinroc.github.io/eleven-seconds-arena/) · [官方結果](https://mojo.devnads.com/events/17?tab=showcase)
+- **[Upgrade Airlock 升級氣閘](https://github.com/tedinroc/upgrade-airlock)** — 合約升級須經過冷卻期，並取得 Chainlink CRE 模擬檢查後的放行。**ETH Shenzhen 2026 第二名，單人參賽。**Sepolia 測試網。  
+  [展示影片](https://upgrade-airlock.pages.dev/video/) · [戰情室](https://upgrade-airlock.pages.dev/)
+- **[Isotherm](https://github.com/tedinroc/isotherm)** — 以 METAR 資料結算城市氣溫市場，包含 Kuru 訂單簿與 MetaMask Agent Wallet 外掛。**Monad Metropolis 的 MetaMask 賞金獎得主（US$750）。**Monad 測試網。  
+  [開啟 App](https://tedinroc.github.io/isotherm/) · [展示影片](https://youtu.be/15AFL_xz_3U) · [得獎紀錄](https://github.com/tedinroc/isotherm/blob/main/docs/awards/metropolis-metamask-bounty.png)
 
-大部分程式碼是 Claude Code 和 Codex 寫的，設計、審查、測試和部署由我負責。
+## 其他實驗
+
+- [KAIKŌ](https://tedinroc.github.io/kaiko/) — 語音點餐，工具呼叫與價格都由伺服器驗證；附示範店家的完整點餐錄影。
+- [語音 agent 手錶](https://tedinroc.github.io/watch/) — 基於 xiaozhi-esp32 與 ESP-Claw 的 ESP32-S3 原型，搭配我開發的 Go 語音閘道。
+- [EARTHRISE](https://tedinroc.github.io/earthrise/) — 使用真實高程資料與 Tripo 生成的地球，製作 three.js 月球場景。
+
+## 開發方式
+
+系統由我設計，多數程式碼由 Claude Code 與 Codex 協助撰寫；我負責審查、測試與交付，並記錄已測量的結果與尚未驗證的部分。
+
+試用後若發現問題，歡迎在對應的 repository 提交 bug report 或可重現的測試案例。

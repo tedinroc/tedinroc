@@ -1,22 +1,32 @@
-### Ted Chen
+# Ted Chen
 
-Independent AI engineer in Taiwan. I build voice AI, LLM agents and tools that check smart-contract upgrades before they run.
+Independent AI engineer in Taiwan. I build **voice AI, agents and onchain safety tools**.
 
-[中文](README.zh-TW.md) · [Portfolio](https://tedinroc.github.io) · [LinkedIn](https://www.linkedin.com/in/tedinroc)
+[繁體中文](README.zh-TW.md) · [Portfolio](https://tedinroc.github.io/) · [X](https://x.com/tedinroc) · [LinkedIn](https://www.linkedin.com/in/tedinroc)
 
-#### Selected work, 2026
+## Selected work
 
-- **Eleven Seconds** · 1st place out of 39 projects at Monad Blitz Shanghai V3, entered solo. On the Monad testnet, each contract upgrade waits 30 blocks while three sentinel processes attack the new code in simulation and veto it on chain if it breaks a rule.
-  [Arena](https://tedinroc.github.io/eleven-seconds-arena/) · [War room](https://tedinroc.github.io/eleven-seconds/) · [Code](https://github.com/tedinroc/eleven-seconds) · [Official results](https://mojo.devnads.com/events/17?tab=showcase)
-- **Upgrade Airlock** · 2nd place at ETH Shenzhen 2026, entered solo. On the Ethereum Sepolia testnet, a proxy upgrade has to wait out a cooldown and get an on-chain clearance. A Chainlink CRE workflow attacks the new implementation in simulation first, then clears or vetoes it.
-  [War room](https://upgrade-airlock.pages.dev/) · [Demo video](https://upgrade-airlock.pages.dev/video/) · [Code](https://github.com/tedinroc/upgrade-airlock)
-- **Isotherm** · Monad Metropolis entry, results pending. Each day it opens YES/NO markets on the Monad testnet for a city's high temperature, one per strike, and settles them from airport METAR weather reports.
-  [App](https://tedinroc.github.io/isotherm/) · [Demo video](https://youtu.be/15AFL_xz_3U) · [Code](https://github.com/tedinroc/isotherm)
-- **EARTHRISE** · Tripothon S1 entry. A three.js scene where a Tripo-generated Earth rises over a lunar crater rim rebuilt from real elevation data.
-  [Scene](https://tedinroc.github.io/earthrise/) · [Official entry](https://earthrise-daedalus.pages.dev/)
-- **KAIKŌ** · Voice ordering on OpenAI Realtime over WebRTC, shown in a demo store. The server checks every tool call the model makes and recomputes prices.
-  [Case study and recording](https://tedinroc.github.io/kaiko/)
-- **Voice-agent smartwatch** · A personal ESP32-S3 prototype built on xiaozhi-esp32 and ESP-Claw, with my own Go voice gateway.
-  [Project site (Chinese)](https://tedinroc.github.io/watch/)
+- **[GapCaster](https://github.com/tedinroc/gapcaster)** — Offline audio description fitted to dialogue gaps, with evidence per line and human review. **ASUS UGen AI League 2026 finalist.** Laptop prototype.  
+  [Sample clip](https://github.com/tedinroc/gapcaster/blob/main/samples/tears-of-steel-0-140/clip_with_ad.mp4) · [Sample outputs](https://github.com/tedinroc/gapcaster/tree/main/samples/tears-of-steel-0-140)
+- **[Remote Hands](https://github.com/tedinroc/remote-hands)** — Repairs Linux test servers through the console; an independent probe checks reboot, SSH and data integrity. **Controlled test prototype.**  
+  [Film](https://youtu.be/1kL6B0gGCck) · [Replay](https://tedinroc.github.io/remote-hands/)
+- **[Undo for Bitcoin](https://github.com/tedinroc/undo)** — Bitcoin spends with a waiting period, phone-passkey cancel and cold-key recovery, using NEAR Chain Signatures. **NEAR testnet + Mutinynet.**  
+  [Demo](https://undo-btc.pages.dev/) · [Verification guide](https://github.com/tedinroc/undo#run-it)
+- **[Eleven Seconds](https://github.com/tedinroc/eleven-seconds)** — Three sentinels simulate attacks during a 30-block upgrade cooldown and veto violations. **1st, Monad Blitz Shanghai V3 (solo).** Monad testnet.  
+  [Try the attack cards](https://tedinroc.github.io/eleven-seconds-arena/) · [Official results](https://mojo.devnads.com/events/17?tab=showcase)
+- **[Upgrade Airlock](https://github.com/tedinroc/upgrade-airlock)** — Contract upgrades need a cooldown and Chainlink CRE clearance after simulation. **2nd, ETH Shenzhen 2026 (solo).** Sepolia testnet.  
+  [Demo](https://upgrade-airlock.pages.dev/video/) · [War room](https://upgrade-airlock.pages.dev/)
+- **[Isotherm](https://github.com/tedinroc/isotherm)** — City-temperature markets settled from METAR, with Kuru order books and a MetaMask Agent Wallet plugin. **MetaMask bounty winner, Monad Metropolis — US$750.** Monad testnet.  
+  [App](https://tedinroc.github.io/isotherm/) · [Demo](https://youtu.be/15AFL_xz_3U) · [Award](https://github.com/tedinroc/isotherm/blob/main/docs/awards/metropolis-metamask-bounty.png)
 
-Claude Code and Codex write most of my code from my designs, and I review, test and ship it.
+## More experiments
+
+- [KAIKŌ](https://tedinroc.github.io/kaiko/) — voice ordering with server-validated tool calls and prices; a recorded demo-store order.
+- [Voice-agent smartwatch](https://tedinroc.github.io/watch/) — an ESP32-S3 prototype built on xiaozhi-esp32 and ESP-Claw, with my own Go voice gateway.
+- [EARTHRISE](https://tedinroc.github.io/earthrise/) — a three.js lunar scene using real elevation data and a Tripo-generated Earth.
+
+## How I work
+
+I design the systems and use Claude Code and Codex to write most of the code. I review, test and ship the results, documenting what was measured and what remains untested.
+
+If you try a project, bug reports and reproducible test cases are welcome in its repository.
