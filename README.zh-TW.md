@@ -6,11 +6,13 @@
 
 ## 精選作品
 
+[GapCaster](#gapcaster) · [Remote&nbsp;Hands](#remote-hands) · [Undo](#undo-for-bitcoin) · [Eleven&nbsp;Seconds](#eleven-seconds-十一秒) · [Airlock](#upgrade-airlock-升級氣閘) · [Isotherm](#isotherm)
+
 ### GapCaster
 
 [![GapCaster — 把離線口述影像放進對白空檔。開啟範例影片。](assets/projects/gapcaster.png)](https://github.com/tedinroc/gapcaster/blob/main/samples/tears-of-steel-0-140/clip_with_ad.mp4)
 
-離線產生口述影像，把旁白放進對白空檔；每句附有依據，交由人工審閱。
+離線產生口述影像，量測每句旁白的實際發音長度，再調整語速或改寫，讓它放得進對白空檔。每句保留依據，交由人工審閱。
 
 筆電原型 · **ASUS UGen AI League 2026 決賽入圍**
 
@@ -20,7 +22,7 @@
 
 [![Remote Hands — 主控台修復與獨立驗證。開啟實際執行回放。](assets/projects/remote-hands.png)](https://tedinroc.github.io/remote-hands/)
 
-透過主控台修復 Linux 測試伺服器，由獨立程式檢查重開機、SSH 與資料完整性。
+AI agent 讀取主控台截圖、輸入按鍵，修復 Linux 測試伺服器。由另一個獨立程式檢查結果：重開機、SSH 與資料完整性。
 
 受控測試環境中的原型
 
@@ -30,7 +32,7 @@
 
 [![Undo for Bitcoin — 用 passkey 取消待簽請求。開啟測試網展示。](assets/projects/undo.png)](https://undo-btc.pages.dev/)
 
-使用 NEAR Chain Signatures，替 Bitcoin 支出加入公開等待期，可用手機 passkey 取消待簽請求，另有冷金鑰復原路徑。
+Bitcoin 支出須先經過公開等待期，才能取得 NEAR Chain Signatures 的第二簽章。手機 passkey 可取消待簽請求；冷金鑰可在 Bitcoin 時間鎖到期後取回資金。
 
 NEAR 測試網 + Mutinynet
 
@@ -40,7 +42,7 @@ NEAR 測試網 + Mutinynet
 
 [![Eleven Seconds — 模擬攻擊並否決違規升級。開啟 Monad 測試網 Arena。](assets/projects/eleven-seconds.png)](https://tedinroc.github.io/eleven-seconds-arena/)
 
-三個 sentinel 在升級的 30 區塊冷卻期內模擬攻擊，違反規則便在鏈上否決。
+升級的 30 區塊冷卻期內，三個各持獨立金鑰的 sentinel 模擬攻擊，違反規則便在鏈上否決。AI reporter 負責解釋結果，否決判斷由固定規則決定。
 
 Monad 測試網 · **Monad Blitz 上海 V3 第一名** · 單人參賽
 
@@ -50,7 +52,7 @@ Monad 測試網 · **Monad Blitz 上海 V3 第一名** · 單人參賽
 
 [![Upgrade Airlock — 合約升級須經過冷卻期與放行。觀看 Sepolia 展示。](assets/projects/upgrade-airlock.png)](https://upgrade-airlock.pages.dev/video/)
 
-合約升級須經過冷卻期，並取得 Chainlink CRE 工作流程模擬檢查後的放行。
+Proxy 升級須經過冷卻期並取得鏈上放行。Chainlink CRE 工作流程先模擬攻擊，再透過 CRE CLI simulator 廣播放行或否決。
 
 Sepolia 測試網 · **ETH Shenzhen 2026 第二名** · 單人參賽
 
@@ -60,7 +62,7 @@ Sepolia 測試網 · **ETH Shenzhen 2026 第二名** · 單人參賽
 
 [![Isotherm — AI agent 可操作的城市氣溫市場。探索 Monad 測試網專案。](assets/projects/isotherm.png)](https://tedinroc.github.io/isotherm/)
 
-以 METAR 資料結算城市氣溫市場，結合 Kuru 訂單簿與 MetaMask Agent Wallet 外掛。
+城市氣溫市場，每個履約價對應一個 Kuru 訂單簿，以機場 METAR 報告結算，並提供 MetaMask Agent Wallet 外掛供 AI agent 交易。
 
 Monad 測試網 · **Monad Metropolis 的 MetaMask bounty 得主 — US$750**
 
@@ -74,8 +76,8 @@ Monad 測試網 · **Monad Metropolis 的 MetaMask bounty 得主 — US$750**
 
 ## 我怎麼做
 
-我負責系統設計，使用 Claude Code 與 Codex 撰寫大部分程式碼，再親自審查、測試與交付，清楚記錄已測量的結果與尚未驗證的部分。
+系統由我設計，大部分程式碼由 Claude Code 與 Codex 撰寫；我負責審查、執行測試與部署。各專案的儲存庫記錄了量測結果與仍存在的限制。
 
-試用後若發現問題，歡迎在對應的儲存庫提交 bug report 或可重現的測試案例。
+歡迎在專案儲存庫提交附有重現步驟的 bug report。
 
 [影像來源與授權](https://tedinroc.github.io/assets/portfolio/credits.txt)

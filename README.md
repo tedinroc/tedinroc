@@ -6,11 +6,13 @@ Independent AI engineer in Taiwan. I build **voice AI, agents and onchain safety
 
 ## Selected work
 
+[GapCaster](#gapcaster) · [Remote&nbsp;Hands](#remote-hands) · [Undo](#undo-for-bitcoin) · [Eleven&nbsp;Seconds](#eleven-seconds) · [Airlock](#upgrade-airlock) · [Isotherm](#isotherm)
+
 ### GapCaster
 
 [![GapCaster — offline audio description fitted to dialogue gaps. Open the sample.](assets/projects/gapcaster.png)](https://github.com/tedinroc/gapcaster/blob/main/samples/tears-of-steel-0-140/clip_with_ad.mp4)
 
-Offline audio description that fits between lines of dialogue, with evidence for each line and human review.
+Offline audio description: generate a line, measure its spoken duration, then adjust or rewrite it to fit the dialogue gap. Each line keeps its evidence for human review.
 
 Laptop prototype · **ASUS UGen AI League 2026 finalist**
 
@@ -20,7 +22,7 @@ Laptop prototype · **ASUS UGen AI League 2026 finalist**
 
 [![Remote Hands — console repair with independent verification. Open the recorded replay.](assets/projects/remote-hands.png)](https://tedinroc.github.io/remote-hands/)
 
-Repairs Linux test servers through the console. An independent probe checks reboot, SSH and data integrity.
+An AI agent repairs Linux test servers from console screenshots and keystrokes. A separate probe checks the result: reboot, SSH and data integrity.
 
 Controlled test prototype
 
@@ -30,7 +32,7 @@ Controlled test prototype
 
 [![Undo for Bitcoin — cancel a pending signing request with a passkey. Open the testnet demo.](assets/projects/undo.png)](https://undo-btc.pages.dev/)
 
-Bitcoin spending with a public waiting period, phone-passkey cancellation of pending signing requests and cold-key recovery, using NEAR Chain Signatures.
+Bitcoin spends enter a public waiting period before NEAR Chain Signatures supplies the second signature. A phone passkey cancels pending requests; a cold key recovers funds after a Bitcoin timelock.
 
 NEAR testnet + Mutinynet
 
@@ -40,7 +42,7 @@ NEAR testnet + Mutinynet
 
 [![Eleven Seconds — simulate attacks and veto rule-breaking upgrades. Open the Monad testnet arena.](assets/projects/eleven-seconds.png)](https://tedinroc.github.io/eleven-seconds-arena/)
 
-Three sentinels simulate attacks during a 30-block upgrade cooldown and veto rule violations onchain.
+During a 30-block upgrade cooldown, three independently keyed sentinels simulate attacks and veto rule violations onchain. An AI reporter explains the result; the veto follows deterministic rules.
 
 Monad testnet · **1st place, Monad Blitz Shanghai V3** · Solo
 
@@ -50,7 +52,7 @@ Monad testnet · **1st place, Monad Blitz Shanghai V3** · Solo
 
 [![Upgrade Airlock — a cooldown and clearance before contract upgrades. Watch the Sepolia demo.](assets/projects/upgrade-airlock.png)](https://upgrade-airlock.pages.dev/video/)
 
-Contract upgrades need both a cooldown and clearance after simulation by a Chainlink CRE workflow.
+Proxy upgrades need a cooldown and onchain clearance. A Chainlink CRE workflow simulates attacks, then broadcasts clearance or veto through the CRE CLI simulator.
 
 Sepolia testnet · **2nd place, ETH Shenzhen 2026** · Solo
 
@@ -60,7 +62,7 @@ Sepolia testnet · **2nd place, ETH Shenzhen 2026** · Solo
 
 [![Isotherm — city-temperature markets with agent access. Explore the Monad testnet project.](assets/projects/isotherm.png)](https://tedinroc.github.io/isotherm/)
 
-City-temperature markets settled from METAR, with Kuru order books and a MetaMask Agent Wallet plugin.
+City-temperature markets with one Kuru order book per strike, settlement from airport METAR reports, and a MetaMask Agent Wallet plugin for trading agents.
 
 Monad testnet · **MetaMask bounty winner, Monad Metropolis — US$750**
 
@@ -74,8 +76,8 @@ Monad testnet · **MetaMask bounty winner, Monad Metropolis — US$750**
 
 ## How I work
 
-I design the systems and use Claude Code and Codex to write most of the code. I review, test and ship the results, documenting what was measured and what remains untested.
+I design the systems. Claude Code and Codex write most of the code; I review it, run the tests and deploy it. Each repository records the measurements and remaining limitations.
 
-Tried a project? Bug reports and reproducible test cases are welcome in its repository.
+Bug reports with a reproduction are welcome in the project repositories.
 
 [Image credits](https://tedinroc.github.io/assets/portfolio/credits.txt)
