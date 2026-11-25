@@ -25,7 +25,7 @@ Compare the original scene from *Tears of Steel* with a version that adds audio 
 | Eleven Seconds | [1st place · Monad Blitz Shanghai V3](https://mojo.devnads.com/events/17?tab=showcase) |
 | Upgrade Airlock | [2nd place · ETH Shenzhen 2026](https://github.com/tedinroc/upgrade-airlock#readme) |
 | ZeroDrain | [2nd place · Monad Blitz Guangzhou](https://mojo.devnads.com/events/18?tab=showcase) |
-| Isotherm | [2nd in MetaMask’s Best Agent Wallet Plugin category · Monad Metropolis](https://x.com/monad/status/2120551113610953111) · [US$750 bounty](https://github.com/tedinroc/isotherm/blob/main/docs/awards/metropolis-metamask-bounty.png) |
+| Isotherm | [2nd in MetaMask’s Best Agent Wallet Plugin category · Monad Metropolis](https://x.com/monad/status/2120551113610953111) · [Award record](https://github.com/tedinroc/isotherm/blob/main/docs/awards/metropolis-metamask-bounty.png) |
 | GapCaster | [Finalist, High-Efficiency Development (International Online) · ASUS UGen AI League 2026](https://contest.bhuntr.com/en/39jg9vimiynrhlksze/article/4517/) |
 | Hongbao | [Selected for a Wave 2 grant · Mezo Buildathon](https://api.akindo.io/public/wave-hacks/OVOO0gdrVU8379D10/waves/WjDnR6LJaSBkVkQz/submission-summaries?page=1&limit=5&keyword=Hongbao) · [Project entry](https://app.akindo.io/communities/NmgM6k04KCdvpAZ8N/products/Pv1eeQQOVTgXBxv4) |
 

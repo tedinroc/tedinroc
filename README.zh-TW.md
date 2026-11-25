@@ -25,7 +25,7 @@
 | Eleven Seconds | [Monad Blitz 上海 V3 第一名](https://mojo.devnads.com/events/17?tab=showcase) |
 | Upgrade Airlock | [ETH Shenzhen 2026 第二名](https://github.com/tedinroc/upgrade-airlock#readme) |
 | ZeroDrain | [Monad Blitz 廣州站第二名](https://mojo.devnads.com/events/18?tab=showcase) |
-| Isotherm | [Monad Metropolis 的 MetaMask 最佳 Agent Wallet 外掛類別第二名](https://x.com/monad/status/2120551113610953111) · [獎金 750 美元](https://github.com/tedinroc/isotherm/blob/main/docs/awards/metropolis-metamask-bounty.png) |
+| Isotherm | [Monad Metropolis 的 MetaMask 最佳 Agent Wallet 外掛類別第二名](https://x.com/monad/status/2120551113610953111) · [得獎紀錄](https://github.com/tedinroc/isotherm/blob/main/docs/awards/metropolis-metamask-bounty.png) |
 | GapCaster | [ASUS UGen AI League 2026 高效開發國際線上組決賽入圍](https://contest.bhuntr.com/en/39jg9vimiynrhlksze/article/4517/) |
 | Hongbao | [獲選 Mezo Buildathon 第二波開發補助](https://api.akindo.io/public/wave-hacks/OVOO0gdrVU8379D10/waves/WjDnR6LJaSBkVkQz/submission-summaries?page=1&limit=5&keyword=Hongbao) · [參賽作品頁](https://app.akindo.io/communities/NmgM6k04KCdvpAZ8N/products/Pv1eeQQOVTgXBxv4) |
 
