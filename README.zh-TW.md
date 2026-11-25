@@ -1,6 +1,6 @@
-[![Ted Chen，台灣的獨立工程師，開發語音 AI 與鏈上安全工具。封面是 GapCaster 一段 4.07 秒旁白的頻譜圖。](github-hero.png)](https://tedinroc.github.io/zh.html)
+[![Ted Chen，台灣的獨立工程師，開發語音 AI 與鏈上安全工具。封面是 GapCaster 一段 4.07 秒旁白的頻譜圖。](https://raw.githubusercontent.com/tedinroc/tedinroc/0c492d85512375c87c0320a5323c6a775fb05982/github-hero.png)](https://tedinroc.github.io/zh.html)
 
-[體驗 Eleven Seconds](https://tedinroc.github.io/eleven-seconds-arena/) · [試聽 GapCaster](https://tedinroc.github.io/gapcaster/zh.html#sample) · [2026 年成果](#recognition) · [English](README.md)
+[體驗 Eleven Seconds](https://tedinroc.github.io/eleven-seconds-arena/) · [試聽 GapCaster](https://tedinroc.github.io/gapcaster/zh.html#sample) · [2026 年成果](#user-content-recognition) · [English](README.md)
 
 我是 Ted，在台灣獨立開發。我做能在筆電上執行的語音工具，也設計讓人有時間攔下異常交易的鏈上系統。下面兩個作品都能直接體驗。
 

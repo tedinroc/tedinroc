@@ -1,6 +1,6 @@
-[![Ted Chen, independent engineer in Taiwan working on voice AI and onchain safety. A spectrogram shows 4.07 seconds of GapCaster audio description.](github-hero.png)](https://tedinroc.github.io/)
+[![Ted Chen, independent engineer in Taiwan working on voice AI and onchain safety. A spectrogram shows 4.07 seconds of GapCaster audio description.](https://raw.githubusercontent.com/tedinroc/tedinroc/0c492d85512375c87c0320a5323c6a775fb05982/github-hero.png)](https://tedinroc.github.io/)
 
-[Try Eleven Seconds](https://tedinroc.github.io/eleven-seconds-arena/) · [Hear GapCaster](https://tedinroc.github.io/gapcaster/#sample) · [2026 results](#recognition) · [繁體中文](README.zh-TW.md)
+[Try Eleven Seconds](https://tedinroc.github.io/eleven-seconds-arena/) · [Hear GapCaster](https://tedinroc.github.io/gapcaster/#sample) · [2026 results](#user-content-recognition) · [繁體中文](README.zh-TW.md)
 
 I’m Ted, an independent engineer in Taiwan. I build voice tools that run on a laptop and onchain systems that give people time to stop a bad transaction. Here are two you can try.
 
